@@ -26,17 +26,7 @@ function sum(first, second) {
 console.log(sum(5, 5));
 
 function max(first, second) {
-    if (first > second) {
-        return first;
-    }
-
-    else if (second > first) {
-        return second;
-    }
-
-    else {
-        return 'Eror';
-    }
+    return first > second ? first : second;
 }
 
 console.log(max(5, 10));
