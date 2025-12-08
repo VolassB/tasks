@@ -51,7 +51,19 @@ function max(first, second) {
 console.log(max(5, 10));
 
 function printTask(title, status) {
-    return `${title}: ${status}`
+    return `${title}: ${status}`;
 }
 
 console.log(printTask('Задача', true))
+
+function isTaskDone(status) {
+    if (status === 'выполнена') {
+        return true;
+    }
+
+    else {
+        return false;
+    }
+}
+
+console.log(isTaskDone('выполнена'));
