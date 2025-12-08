@@ -28,8 +28,24 @@ else {
     console.log('Задача ещё в работе')
 }
 
-function sum(a,b) {
-    return `${a} + ${b}`;
+function sum(first, second) {
+    return `${first} + ${second} = ${first + second}`;
 }
 
 console.log(sum(5, 5));
+
+function max(first, second) {
+    if (first > second) {
+        return first;
+    }
+
+    else if (second > first) {
+        return second;
+    }
+
+    else {
+        return 'Eror';
+    }
+}
+
+console.log(max(5, 10));
