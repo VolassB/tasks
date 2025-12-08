@@ -29,7 +29,7 @@ else {
 }
 
 function sum(a,b) {
-    console.log(a + b);
+    return `${a} + ${b}`;
 }
 
 console.log(sum(5, 5));
