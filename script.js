@@ -1,10 +1,5 @@
 let title = '';
-if (title != false) {
-    console.log(`Задача: ${title}`)
-}
-else {
-    console.log('Название задачи не указано')
-}
+console.log(title != false ? `Задача: ${title}` : 'Название задачи не указано');
 
 let tasks = 3;
 if (tasks > 3) {
