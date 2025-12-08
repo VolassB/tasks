@@ -49,3 +49,9 @@ function max(first, second) {
 }
 
 console.log(max(5, 10));
+
+function printTask(title, status) {
+    return `${title}: ${status}`
+}
+
+console.log(printTask('Задача', true))
