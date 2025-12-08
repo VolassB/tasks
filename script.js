@@ -27,3 +27,9 @@ if (isComplited) {
 else {
     console.log('Задача ещё в работе')
 }
+
+function sum(a,b) {
+    console.log(a + b);
+}
+
+console.log(sum(5, 5));
