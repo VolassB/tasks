@@ -58,12 +58,24 @@ const task = {
     status: 'Выполнена',
 };
 
-alert(task.id);
-alert(task.title);
-alert(task.status);
+console.log(task.id);
+console.log(task.title);
+console.log(task.status);
 
-const tasksM = ['Задача 1', 'Не выполнена','Задача 2', 'Выполнена'];
-console.log(tasksM[0], tasksM[3]);
+let tasksM = [
+    {id: 1, title: 'Задача 1', status: false},
+    {id: 2, title: 'Задача 2', status: true}
+];
+console.log(tasksM[0].title)
+console.log(tasksM[1].status);
 
-tasksM[1] = 'Выполнена';
-console.log(tasksM[1]);
+tasksM[0].status = true;
+console.log(tasksM[0].status);
+
+let newTask = {
+    id: 3,
+    title: 'Задача 3',
+    completed: false
+}
+tasksM.push(newTask);
+console.log(tasksM[2])
