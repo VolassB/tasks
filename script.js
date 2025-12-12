@@ -35,7 +35,7 @@ function printTask(title, status) {
     return `${title}: ${status}`;
 }
 
-console.log(printTask('Задача', true))
+console.log(printTask('Задача', true));
 
 function isTaskDone(status) {
     return status === 'выполнена';
@@ -43,11 +43,17 @@ function isTaskDone(status) {
 
 console.log(isTaskDone('выполнена'));
 
-const numbers = [0, 1, 2, 3, 4]
+const numbers = [0, 1, 2, 3, 4];
 
 console.log(numbers[0], numbers[numbers.lenght - 1]);
 
-const country = ['Челябинск', 'Питер', 'Москва', 'Самара']
-console.log(country)
-country[3] = 'Тюмень'
-console.log(country)
+const country = ['Челябинск', 'Питер', 'Москва', 'Самара'];
+console.log(country);
+country[3] = 'Тюмень';
+console.log(country);
+
+const task = {
+    Id: 0,
+    title: 'Задача',
+    status: 'Выполнена',
+};
