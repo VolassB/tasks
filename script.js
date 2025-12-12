@@ -61,3 +61,6 @@ const task = {
 alert(task.id);
 alert(task.title);
 alert(task.status);
+
+const tasksM = ['Задача 1', 'Не выполнена','Задача 2', 'Выполнена'];
+console.log(tasksM[0], tasksM[3]);
