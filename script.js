@@ -57,3 +57,5 @@ const task = {
     title: 'Задача',
     status: 'Выполнена',
 };
+
+console.log(task);
