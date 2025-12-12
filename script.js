@@ -42,3 +42,7 @@ function isTaskDone(status) {
 }
 
 console.log(isTaskDone('выполнена'));
+
+const numbers = [0, 1, 2, 3, 4]
+
+console.log(numbers[0], numbers[numbers.lenght - 1]);
