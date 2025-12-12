@@ -53,9 +53,11 @@ country[3] = 'Тюмень';
 console.log(country);
 
 const task = {
-    Id: 0,
+    id: 0,
     title: 'Задача',
     status: 'Выполнена',
 };
 
-console.log(task);
+alert(task.id);
+alert(task.title);
+alert(task.status);
